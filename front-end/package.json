@@ -1,0 +1,41 @@
+{
+  "name": "front-end",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port=3001",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.2.0",
+    "@nuxt/image": "^2.0.0",
+    "@nuxt/ui": "^3.3.7",
+    "@nuxtjs/color-mode": "^4.0.0",
+    "@pinia/nuxt": "^0.11.3",
+    "axios": "^1.13.4",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.3",
+    "lucide-vue-next": "^0.556.0",
+    "nuxt": "^4.2.1",
+    "nuxt-charts": "^1.0.2",
+    "nuxt-icons": "^4.0.0",
+    "pdfjs-dist": "^5.4.624",
+    "radix-vue": "^1.9.17",
+    "sweetalert2": "^11.26.4",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^24.10.2",
+    "tailwindcss": "^3.4.17"
+  },
+  "overrides": {
+    "serialize-javascript": "^7.0.3"
+  }
+}

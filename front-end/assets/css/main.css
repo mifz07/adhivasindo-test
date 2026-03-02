@@ -1,0 +1,112 @@
+body {
+    font-family: var(--font-montserrat-regular);
+    color: white;
+    a {
+      text-decoration: none;
+    }
+}
+
+.color-default{
+  color: #00a5a8;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+@font-face {
+    font-family: 'Aleo-Italic';
+    src: local('Aleo Italic'), local('Aleo-Italic'),
+        url('../fonts/aleo/Aleo-Italic.woff') format('woff2'),
+        url('../fonts/aleo/Aleo-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aleo-Light';
+    src: local('Aleo Light'), local('Aleo-Light'),
+        url('../fonts/aleo/Aleo-Light.woff2') format('woff2'),
+        url('../fonts/aleo/Aleo-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aleo-BoldItalic';
+    src: local('Aleo Bold Italic'), local('Aleo-BoldItalic'),
+        url('../fonts/aleo/Aleo-BoldItalic.woff2') format('woff2'),
+        url('../fonts/aleo/Aleo-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aleo-Bold';
+    src: local('Aleo Bold'), local('Aleo-Bold'),
+        url('../fonts/aleo/Aleo-Bold.woff2') format('woff2'),
+        url('../fonts/aleo/Aleo-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aleo-LightItalic';
+    src: local('Aleo Light Italic'), local('Aleo-LightItalic'),
+        url('../fonts/aleo/Aleo-LightItalic.woff2') format('woff2'),
+        url('../fonts/aleo/Aleo-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aleo-Regular';
+    src: local('Aleo Regular'), local('Aleo-Regular'),
+        url('../fonts/aleo/Aleo-Regular.woff2') format('woff2'),
+        url('../fonts/aleo/Aleo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold'),
+        url('../fonts/montserrat/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/montserrat/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: local('Montserrat-Regular'),
+        url('../fonts/montserrat/Montserrat-Regular.woff') format('woff2'),
+        url('../fonts/montserrat/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root {
+    --font-aleo-regular: 'Aleo-Regular';
+    --font-aleo-bold: 'Aleo-Bold';
+    --font-aleo-light: 'Aleo-Light';
+    --font-aleo-bold-italic: 'Aleo-BoldItalic';
+    --font-aleo-light-italic: 'Aleo-LightItalic';
+    --font-aleo-italic: 'Aleo-Italic';
+    --font-montserrat-regular: 'Montserrat-Regular';
+    --font-montserrat-bold: 'Montserrat-Bold';
+}
