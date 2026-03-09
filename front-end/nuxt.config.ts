@@ -11,7 +11,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Adhikari Inovasi Indonesia' }
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/sigmagrow.png' }
+        { rel: 'icon', type: 'image/png', href: '/Adhivasindo.png' }
       ]
     }
   },

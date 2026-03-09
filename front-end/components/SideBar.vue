@@ -96,7 +96,7 @@
       <MenuButton
         label="Logout"
         :icon="PowerIcon"
-        to="/logout"
+        to="#"
         :menu="'logout'"
         :activeMenu="activeMenu"
         :collapsed="isCollapsed"
